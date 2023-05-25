@@ -11,7 +11,7 @@ def selection_sort(unsorted_list):
         unsorted_list[min_index] = unsorted_list[j]
         unsorted_list[j] = temp
       
-    print("{} round : {}".format(i + 1, unsorted_list))
+    print("Step {} : {}".format(i + 1, unsorted_list))
 
 unsorted_list = [27, 10, 12, 20, 25, 13]
 
